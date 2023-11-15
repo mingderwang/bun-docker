@@ -41,3 +41,12 @@ That's it! Your web service will be live on your Render URL as soon as the build
 ### One-click deploy
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/render-examples/bun-docker)
+
+### run with docker
+
+```
+docker build -t mingder78/my-bun-elysia-example .
+docker run --rm -it -p 3000:3000 mindger78/my-bun-elysia-example
+// publish to dockerhub
+docker push mindger78/my-bun-elysia-example
+```
